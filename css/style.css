@@ -69,7 +69,7 @@ nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 nav a,
@@ -95,7 +95,7 @@ section h2 {
     font-size: 2.5em;
 }
 
-.Info p {
+section p {
     padding-top: 1em;
 }
 
@@ -114,6 +114,8 @@ section h2 {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.25em;
 }
 
 .shopItem {
