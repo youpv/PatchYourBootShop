@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'bandito_personal_useregular';
-    src: url('/fonts/bandito_personal_use-webfont.woff2') format('woff2'),
-         url('/fonts/bandito_personal_use-webfont.woff') format('woff');
+    src: url('/fonts/Bandito.woff2') format('woff2'),
+         url('/fonts/Bandito.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
@@ -50,10 +50,12 @@ header {
     justify-content: center;
 }
 
-header h1 {
+header h1,
+header a {
     text-align: center;
     align-self: center;
     color: #DADAAA;
+    text-decoration: none;
 }
 
 nav {
